@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Waifu Bot Checkout</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" />
+</head>
+<body>
+<div class="container">
+  <h1>Waifu Bot</h1>
+  <p class="price">Price: $20 USD</p>
+
+  <!-- Add the button for instructions -->
+  <button onclick="location.href='instructions.html'" class="instructions-button">How to find Server ID</button>
+
+  <!-- Container for input field -->
+  <div class="input-container">
+    <label for="server-id">Server ID:</label>
+    <input type="text" id="server-id" placeholder="Enter your server ID" required />
+  </div>
+
+  <div id="paypal-button-container"></div>
+  <p id="result-message"></p>
+</div>
+
+<!-- Initialize the JS-SDK -->
+<script
+        src="https://www.paypal.com/sdk/js?client-id=AYHbbrbfRqY2Uo3kvU7lYBDI575Y_Nu3KLTFb04Ahr0S1sppPYcz9Zy0Ld03zmYAA9op4KYm92hAhSQx&buyer-country=CA&currency=USD&components=buttons"
+        data-sdk-integration-source="developer-studio"
+></script>
+<script src="app.js"></script>
+</body>
+</html>

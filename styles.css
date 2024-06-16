@@ -1,0 +1,171 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    text-align: center;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #4a4a4a;
+    font-size: 2.5rem;
+    margin-bottom: 5px; /* Adjusted margin */
+}
+
+.price {
+    font-family: 'Arial', sans-serif;
+    color: #4a4a4a;
+    font-size: 1.2rem;
+    margin-top: 0; /* Removed top margin */
+    margin-bottom: 20px; /* Adjusted bottom margin */
+}
+
+.waifu-img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#paypal-button-container {
+    margin-top: 20px;
+}
+
+#result-message {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #d9534f;
+}
+
+.paypal-button {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Add this to your styles.css file */
+/* Add this to your styles.css file */
+/* Add this to your styles.css file */
+/* Add this to your styles.css file */
+body {
+    background-color: #fce4d8; /* Adjust this value as needed */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #333;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #555;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-container label {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.input-container input {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 300px; /* Adjust this value as needed */
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-container input:focus {
+    border-color: #555;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.instructions-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.instructions-button:hover {
+    background-color: #555;
+}
+
+.paypal-button-container-disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Instructions page styles */
+.instructions-fieldset {
+    border: 2px solid #000;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.instructions-fieldset legend {
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+
+.instructions-fieldset ol {
+    padding-left: 20px;
+}
+
+.instructions-fieldset li {
+    margin-bottom: 10px;
+}
+
+.instruction-gif, .resized-image {
+    width: 100%;
+    max-width: 500px; /* Adjust this value as needed */
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
