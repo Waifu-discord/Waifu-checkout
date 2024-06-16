@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       async createOrder() {
         try {
-          const response = await fetch("http://localhost:8888/api/orders", {
+          const response = await fetch("https://a7f7-24-79-60-25.ngrok-free.app/api/orders", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       async onApprove(data, actions) {
         try {
-          const response = await fetch(`http://localhost:8888/api/orders/${data.orderID}/capture`, {
+          const response = await fetch(`https://a7f7-24-79-60-25.ngrok-free.app/api/orders/${data.orderID}/capture`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
